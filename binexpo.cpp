@@ -1,5 +1,5 @@
 /*
-idea is that if kth bit of b in binary exponentiation is 1 then you multiply the result with 3^(k-1)
+idea is that if kth bit of b in binary exponentiation is 1 then you multiply the result with 3^(k1)
 a = 3 b = 11
 num = 3^11 = 3^(1+2+8)
 res = 1
@@ -30,7 +30,7 @@ int main(){
     ll res = 1;
     while(b>0){
         if(b%2==1)  res *= a;
-        a *= a; // this is the a^(k-1) wala term
+        a *= a; // this is the a^(k1) wala term
         b = b>>1;
     }    
     cout<<res<<'\n';
