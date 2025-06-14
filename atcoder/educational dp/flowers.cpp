@@ -1,0 +1,1 @@
+//ye segment tree ya fenwick tree se hi hoga nlogn
